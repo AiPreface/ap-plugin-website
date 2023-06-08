@@ -107,7 +107,7 @@ URL：[https://link.juejin.cn/?target=https://chat.openai.com/auth/login](https:
 
 **#ap设置OpenAI密钥****sk-xxx****用于#处理xxx**
 
-![](image/\(I]582SXBE7\[J{5\)0C\(6D2C_T6vJYOsKDz.jpg)
+![](image/(I]582SXBE7[J{5)0C(6D2C_T6vJYOsKDz.jpg)
 
 ![](image/image_osUzHNUxba.jpg)
 
