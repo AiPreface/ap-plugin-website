@@ -1,7 +1,7 @@
 export default {
-  '/api/': getApiSidebar(),
-  '/components/': getComponentsSidebar(),
-  '/guide/': getGuideSidebar()
+  '/about/': getApiSidebar(),
+  '/use/': getComponentsSidebar(),
+  '/config/': getGuideSidebar()
 }
 
 function getApiSidebar() {
@@ -60,7 +60,7 @@ function getGuideSidebar() {
       items: [
         {
           text: '文档1',
-          link: '/guide/'
+          link: '/config/'
         },
         {
           text: '文档2',

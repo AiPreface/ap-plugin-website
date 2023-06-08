@@ -5,7 +5,7 @@ import sidebar from './configs/sidebar'
 
 export default defineConfig({
   // lang: 'en-US',
-  title: 'Vitepress',
+  title: 'AP-PLUGIN',
   description: '使用 Vitepress 搭建组件库文档站点。',
 
   lastUpdated: true,
@@ -65,7 +65,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-present 君惜'
+      copyright: 'Copyright © 2023 AP-Plugin开发组'
     }
   }
 })
