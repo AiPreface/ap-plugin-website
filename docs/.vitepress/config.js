@@ -55,12 +55,12 @@ export default defineConfig({
     sidebar,
 
     editLink: {
-      pattern: 'https://github.com/xinlei3166/vitepress-demo/edit/master/docs/:path',
+      pattern: 'https://github.com/ap-plugin/ap-plugin-website/edit/master/docs/:path',
       text: '在 GitHub 上编辑此页'
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/xinlei3166/vitepress-demo' }
+      { icon: 'github', link: 'https://github.com/ap-plugin/ap-plugin-website' }
     ],
 
     footer: {

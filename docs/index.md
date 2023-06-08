@@ -14,10 +14,10 @@ hero:
   actions:
     - theme: brand
       text: 配置文档
-      link: /config/
+      link: /Config/
     - theme: alt
-      text: 命令文档
-      link: /use/
+      text: 使用文档
+      link: /Usage/
 
 features:
   - icon: ⚡️

@@ -1,18 +1,18 @@
 export default {
   '/about/': getApiSidebar(),
-  '/use/': getComponentsSidebar(),
-  '/config/': getGuideSidebar()
+  '/Usage/': getComponentsSidebar(),
+  '/Config/': getGuideSidebar()
 }
 
 function getApiSidebar() {
   return [
     {
-      text: '功能',
+      text: '🏅关于我们',
       collapsible: true,
       items: [
         {
-          text: '已实现',
-          link: '/api/'
+          text: 'AP-Plugin开发组',
+          link: '/about/'
         },
       ]
     }
@@ -22,31 +22,12 @@ function getApiSidebar() {
 function getComponentsSidebar() {
   return [
     {
-      text: '组件',
+      text: '🎲使用文档',
+      collapsible: true,
       items: [
         {
-          text: 'Button 按钮',
-          link: '/components/button'
-        },
-        {
-          text: 'Tabs 标签页',
-          link: '/components/tabs'
-        },
-        {
-          text: 'Modal 对话框',
-          link: '/components/modal'
-        },
-        {
-          text: 'Tag 标签',
-          link: '/components/tag'
-        },
-        {
-          text: 'Vue 引用组件',
-          link: '/components/vue'
-        },
-        {
-          text: 'Vue Script',
-          link: '/components/vue-script'
+          text: '使用文档',
+          link: '/Usage/'
         }
       ]
     }
@@ -56,19 +37,60 @@ function getComponentsSidebar() {
 function getGuideSidebar() {
   return [
     {
-      text: '指南',
+      text: '🛠️配置文档',
+      collapsible: true,
       items: [
         {
-          text: '文档1',
-          link: '/config/'
+          text: ' - 绘图接口部署相关说明',
+          link: '/Config/docs1'
         },
         {
-          text: '文档2',
-          link: '/guide/button'
+          text: ' - 绘图服务端部署文档',
+          link: '/Config/docs2'
         },
         {
-          text: '文档3',
-          link: '/guide/modal'
+          text: ' - 大清晰术接口文档',
+          link: '/Config/docs3'
+        },
+        {
+          text: ' - 鉴赏图片参考文档',
+          link: '/Config/docs4'
+        },
+        {
+          text: ' - AI鉴定参考文档',
+          link: '/Config/docs5'
+        },
+        {
+          text: ' - 去背景参考文档',
+          link: '/Config/docs6'
+        },
+        {
+          text: ' - 图片动漫化参考文档',
+          link: '/Config/docs7'
+        },
+        {
+          text: ' - 图片转音乐参考文档',
+          link: '/Config/docs8'
+        },
+        {
+          text: ' - 动漫审美预测参考文档',
+          link: '/Config/docs9'
+        },
+        {
+          text: ' - 百度翻译服务配置文档',
+          link: '/Config/docs10'
+        },
+        {
+          text: ' - 有道翻译服务配置文档',
+          link: '/Config/docs11'
+        },
+        {
+          text: ' - 百度图片审核服务配置文档',
+          link: '/Config/docs12'
+        },
+        {
+          text: ' - GPT生成Prompt配置文档',
+          link: '/Config/docs13'
         }
       ]
     }
