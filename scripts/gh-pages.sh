@@ -17,4 +17,4 @@ git add -A
 git commit -m 'deploy to the gh-pages'
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f git@github.com:ap-plugin/ap-plugin.git master:gh-pages
+git push -f git@github.com:ap-plugin/ap-plugin-website.git master:gh-pages
