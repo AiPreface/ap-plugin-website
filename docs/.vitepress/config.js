@@ -43,9 +43,9 @@ export default defineConfig({
     logo: '/logo.svg',
 
     algolia: {
-      appId: 'X51HWTCQJJ',
-      apiKey: 'ca20f15eb8a667898b65d13f4213ae3d',
-      indexName: 'vitepress-demo'
+      appId: '56ZALUZDUK',
+      apiKey: 'e09ab0c36e7f57cfba732ee4df3593ad',
+      indexName: 'ap-plugin-website'
     },
 
     // nav
