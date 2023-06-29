@@ -26,8 +26,40 @@ function getComponentsSidebar() {
       collapsible: true,
       items: [
         {
-          text: '使用文档',
-          link: '/Usage/'
+          text: ' - 绘图',
+          link: '/Usage/docs1'
+        },
+        {
+          text: ' - 以图生图',
+          link: '/Usage/docs2'
+        },
+        {
+          text: ' - 二次元的我',
+          link: '/Usage/docs3'
+        },
+        {
+          text: ' - 大清晰术',
+          link: '/Usage/docs4'
+        },
+        {
+          text: ' - 鉴赏图片',
+          link: '/Usage/docs5'
+        },
+        {
+          text: ' - 鉴定图片',
+          link: '/Usage/docs6'
+        },
+        {
+          text: ' - 抠图',
+          link: '/Usage/docs7'
+        },
+        {
+          text: ' - 图片动漫化',
+          link: '/Usage/docs8'
+        },
+        {
+          text: ' - 图片转音乐',
+          link: '/Usage/docs9'
         }
       ]
     }
